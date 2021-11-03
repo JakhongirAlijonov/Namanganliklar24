@@ -25,6 +25,7 @@ body {
 
 .site-header {
     background-color: #F6F6F6;
+    width: 100%;
 }
 
 .header-content {
@@ -80,10 +81,6 @@ body {
     font-weight: 700;
 }
 
-.kirish:not(first-child) {
-    margin-left: 25px;
-}
-
 .search-bar {
     border-radius: 60px;
     background-color: #fff;
@@ -91,4 +88,46 @@ body {
     height: 45px;
     border: none;
     text-decoration: none;
+}
+
+.lang {
+    margin-left: 25px;
+    background-color: #DCE6FF;
+    border-radius: 39px;
+    width: 70px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #7296EC;
+    border-radius: 10px;
+    margin-left: 25px;
+    width: 89px;
+    height: 45px;
+}
+
+.login a {
+    padding: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.uz {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    padding: 3px;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+}
+
+.ru {
+    color: #000;
+    font-size: 13px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-right: 13px;
 }
