@@ -25,7 +25,6 @@ body {
 
 .site-header {
     background-color: #F6F6F6;
-    width: 100%;
 }
 
 .header-content {
@@ -130,4 +129,35 @@ body {
     padding-top: 11px;
     padding-bottom: 10px;
     padding-right: 13px;
+}
+
+.main-nav {
+    font-weight: 500;
+    font-size: 18px;
+    color: #7F7F7F;
+}
+
+.main-nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-items:first-child {
+    padding-left: 6px;
+}
+
+.main-nav-item {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-nav-item a {
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+.ad {
+    padding: 0;
 }
