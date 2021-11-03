@@ -15,10 +15,80 @@ body {
 /* container */
 
 .container {
-    max-width: 1260px;
+    max-width: 1680px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.site-header {
+    background-color: #F6F6F6;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.kurs,
+.info,
+.kirish,
+.lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    background-color: #fff;
+    color: #7296EE;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.dollar {
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dollar i {
+    color: #2959CE;
+    font-weight: 700;
+}
+
+.ruble {
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ruble i {
+    color: #2959CE;
+    font-weight: 700;
+}
+
+.kirish:not(first-child) {
+    margin-left: 25px;
+}
+
+.search-bar {
+    border-radius: 60px;
+    background-color: #fff;
+    width: 275px;
+    height: 45px;
+    border: none;
+    text-decoration: none;
 }
