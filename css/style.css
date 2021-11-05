@@ -64,7 +64,7 @@ body {
     font-weight: 400;
 }
 
-.dollar i {
+span {
     color: #2959CE;
     font-weight: 700;
 }
@@ -75,18 +75,17 @@ body {
     font-weight: 400;
 }
 
-.ruble i {
-    color: #2959CE;
-    font-weight: 700;
-}
-
 .search-bar {
     border-radius: 60px;
-    background-color: #fff;
     width: 275px;
     height: 45px;
     border: none;
     text-decoration: none;
+    background: url('../images/Mask.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 31px;
+    background-color: #fff;
 }
 
 .lang {
@@ -96,36 +95,40 @@ body {
     width: 70px;
     height: 36px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .login {
     background-color: #7296EC;
     border-radius: 10px;
     margin-left: 25px;
-    width: 89px;
-    height: 45px;
+    padding: 20px 13px;
 }
 
 .login a {
-    padding: 20px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
 }
 
+.lang {
+    width: 70px;
+    height: 36px;
+}
+
+.lang a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+
 .uz {
     border-radius: 50%;
     background-color: #fff;
-    color: #000;
     padding: 3px;
-    font-size: 13px;
-    width: 30px;
-    height: 30px;
 }
 
 .ru {
-    color: #000;
-    font-size: 13px;
     padding-top: 11px;
     padding-bottom: 10px;
     padding-right: 13px;
