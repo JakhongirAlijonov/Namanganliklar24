@@ -1,167 +1,209 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    line-height: 22px;
-    font-size: 16px;
-}
-
-
-/* container */
-
-.container {
-    max-width: 1680px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 120px;
-    padding-right: 120px;
-}
-
-.site-header {
-    background-color: #F6F6F6;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.kurs,
-.info,
-.kirish,
-.lang {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.site-logo {
-    background-color: #fff;
-    color: #7296EE;
-    padding-top: 9px;
-    padding-bottom: 8px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 7px;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.dollar {
-    margin-left: 35px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-span {
-    color: #2959CE;
-    font-weight: 700;
-}
-
-.ruble {
-    margin-left: 25px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.search-bar {
-    border-radius: 60px;
-    width: 275px;
-    height: 45px;
-    border: none;
-    text-decoration: none;
-    background: url('../images/Mask.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 31px;
-    background-color: #fff;
-}
-
-.lang {
-    margin-left: 25px;
-    background-color: #DCE6FF;
-    border-radius: 39px;
-    width: 70px;
-    height: 36px;
-    cursor: pointer;
-    vertical-align: middle;
-}
-
-.login {
-    background-color: #7296EC;
-    border-radius: 10px;
-    margin-left: 25px;
-    padding: 20px 13px;
-}
-
-.login a {
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.lang {
-    width: 70px;
-    height: 36px;
-}
-
-.lang a {
-    text-decoration: none;
-    font-size: 13px;
-    color: #000;
-}
-
-.uz {
-    border-radius: 50%;
-    background-color: #fff;
-    padding: 3px;
-}
-
-.ru {
-    padding-top: 11px;
-    padding-bottom: 10px;
-    padding-right: 13px;
-}
-
-.main-nav {
-    font-weight: 500;
-    font-size: 18px;
-    color: #7F7F7F;
-}
-
-.main-nav-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.main-nav-items:first-child {
-    padding-left: 6px;
-}
-
-.main-nav-item {
-    list-style-type: none;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.main-nav-item a {
-    color: #7F7F7F;
-    text-decoration: none;
-}
-
-.ad {
-    padding: 0;
-}
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px;
+    }
+    /* container */
+    
+    .container {
+        max-width: 1240px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .site-header {
+        background-color: #F6F6F6;
+    }
+    
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .kurs,
+    .info,
+    .kirish,
+    .lang {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .site-logo {
+        background-color: #fff;
+        color: #7296EE;
+        padding-top: 9px;
+        padding-bottom: 8px;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 7px;
+        text-decoration: none;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .site-logo:hover {
+        opacity: 0.8;
+    }
+    
+    .site-logo:active {
+        opacity: 0.6;
+    }
+    
+    .dollar {
+        margin-left: 35px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    span {
+        color: #2959CE;
+        font-weight: 700;
+    }
+    
+    .ruble {
+        margin-left: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .search-bar {
+        border-radius: 60px;
+        width: 275px;
+        height: 45px;
+        border: none;
+        text-decoration: none;
+        background: url('../images/Mask.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 31px;
+        background-color: #fff;
+    }
+    
+    .login {
+        background-color: #7296EC;
+        border-radius: 10px;
+        margin-left: 25px;
+        padding: 13px 20px;
+    }
+    
+    .login:hover {
+        opacity: 0.8;
+    }
+    
+    .login:active {
+        opacity: 0.6;
+    }
+    
+    .login a {
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+    .lang {
+        display: flex;
+        padding: 3px;
+        margin-right: 25px;
+        margin-left: 25px;
+        border-radius: 39px;
+        font-size: 13px;
+        background-color: #dce6ff;
+    }
+    
+    .lang-toggle-link {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        font-size: 13px;
+        line-height: 30px;
+        color: #a6a6a6;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .lang-toggle-link-active {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    .main-nav {
+        font-weight: 500;
+        font-size: 18px;
+        color: #7F7F7F;
+    }
+    
+    .main-nav-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .main-nav-items:first-child {
+        padding-left: 6px;
+    }
+    
+    .main-nav-item {
+        list-style-type: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .main-nav-item a {
+        color: #7F7F7F;
+        text-decoration: none;
+    }
+    
+    .ad {
+        padding: 0;
+    }
+    
+    .news-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    .news-item {
+        list-style-type: none;
+        background-color: #F6F6F6;
+        border-radius: 15px;
+        height: 382px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 17px 15px;
+        margin-bottom: 10px;
+        width: 392px;
+    }
+    
+    .news-title {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000;
+        height: 78px;
+    }
+    
+    .news-text {
+        margin-bottom: 15px;
+        line-height: 22px;
+        height: 44px;
+    }
