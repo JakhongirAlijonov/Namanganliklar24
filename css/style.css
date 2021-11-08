@@ -355,6 +355,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
     
     .description-text {
@@ -371,6 +372,7 @@
         margin-left: 75px;
         font-weight: 500;
         margin-top: 83px;
+        flex-wrap: wrap;
     }
     
     .nav-footer-item {
