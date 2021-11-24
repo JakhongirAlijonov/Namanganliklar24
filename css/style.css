@@ -3,7 +3,7 @@
     }
 
 *:focus{
-   outline:2ps solid #ff1b36;
+   outline:2px solid #ff1b36;
    outline-offset:4px;
 }
     
