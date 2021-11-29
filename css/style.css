@@ -171,6 +171,8 @@
     
     .top-ad {
         padding: 0;
+        margin-top: 40px;
+        margin-bottom: 50px;
     }
     
     .news-section-list {
@@ -229,6 +231,7 @@
         height: 100px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -330,6 +333,8 @@
     
     .news-footer {
         color: #5E5F61;
+        padding-bottom: 15px;
+        margin-left: 17px;
     }
     
     .more-news {
