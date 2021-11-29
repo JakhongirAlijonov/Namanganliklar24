@@ -254,7 +254,6 @@ span {
 
 .main-title {
     padding-top: 20px;
-    /* padding-left: 17px; */
 }
 
 .main-link {
@@ -267,6 +266,76 @@ span {
 .ad {
     width: 393px;
     height: 338px;
+    margin-left: 10px;
+}
+
+.bottom-hr {
+    width: 780px;
+    color: #D2D2D2;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.interests {
+    margin-top: 60px;
+}
+
+.interest-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.inter-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inter-item {
+    list-style: none;
+    background-color: #F6F6F6;
+    width: 393px;
+    border-radius: 15px;
+    padding: 20px 18px 15px 17px;
+}
+
+.inter-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.inter-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.inter-item:last-child h3 {
+    height: 78px;
+}
+
+.inter-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inter-footer-img {
+    width: 20px;
+    height: 20px;
+}
+
+.inter-footer-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #5E5F61;
     margin-left: 10px;
 }
 
